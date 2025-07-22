@@ -31,13 +31,13 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # YouTube Photo Download
 photo = 'https://i.ibb.co/bgzZW56K/IMG-20250202-062354.jpg'
 
-credit ="𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" 
+credit ="Star AJ" 
 # Admin ID
-ADMIN_ID = 5680454765
-OWNER = int(os.environ.get("OWNER", 5680454765))
+ADMIN_ID = 1116405290
+OWNER = int(os.environ.get("OWNER", 1116405290))
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "5680454765").split()):  
+    for x in (os.environ.get("ADMINS", "1116405290").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -1055,9 +1055,9 @@ async def txt_handler(bot: Client, m: Message):
         raw_text3 = '/admin'
 
     # Default credit message
-    credit = "️𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🕊️⁪⁬⁮⁮⁮"
+    credit = "️Star AJ 🕊️⁪⁬⁮⁮⁮"
     if raw_text3 == '/admin':
-        CR = '𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🕊️'
+        CR = 'Star AJ 🕊️'
     elif raw_text3:
         CR = raw_text3
     else:
